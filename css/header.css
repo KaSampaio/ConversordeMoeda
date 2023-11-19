@@ -1,0 +1,12 @@
+header{
+    width: 100%;
+    margin-bottom: 3.5%;
+    background-color: #23407a;
+}
+
+header h1{
+    color:#fff;
+    font-size: 3em;
+    text-align: center;
+    cursor: pointer;
+}

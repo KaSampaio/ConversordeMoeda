@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("https://portaldobitcoin.uol.com.br/wp-content/uploads/2022/05/simbolo-de-dinheiro-em-fundo-azul-representando-real-digital-CBDC.jpg");
+  background-color: #0000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.alura .container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+select,
+button {
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  width: 220px;
+  padding: 10px 14px;
+  font-size: 1em;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  transition: 0.2s ease-in-out;
+}
+
+input:focus,
+select:focus {
+  box-shadow: inset 1px 1px 3px rgba(0, 0, 0 0.3);
+}
+
+.page-logo {
+  width: 200px;
+  margin: 0 10px;
+  max-height: 250px;
+}
+
+.alura-logo {
+  color: #333;
+  width: 40px;
+  position: absolute;
+  top: 25px;
+  right: 10px;
+}
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+  font-size: 2.8em;
+}
+
+

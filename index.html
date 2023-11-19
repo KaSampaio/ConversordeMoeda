@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="page-title">Conversor de Moedas</h1>
+    </header>
+
+    
+      <section class="alura">
+        <div class="container">
+          <img
+            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg"
+            class="page-logo"
+            alt=""
+          />
+        </div>
+        <a href="https://alura.com.br/" target="_blank">
+          <img
+            src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
+            alt=""
+            class="alura-logo"
+          />
+        </a>
+      </section>
+
+      <main>
+      <form id="form">
+        <section class="inputs-container">
+          <div class="form-group">
+            <label for="value-real"> Valor a ser Convertido (R$)</label>
+            <input
+              type="number"
+              id="value-real"
+              name="value-real"
+              placeholder="R$50,00"
+              max="1000000"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="currency">Escolha a moeda ou criptomoeda</label>
+            <select name="" id="currency">
+              <option value="">Selecione...</option>
+              <option value="eur">Euro</option>
+              <option value="dol">Dólar</option>
+              <option value="bit">Bitcoin</option>
+              <option value="eth">Ethereum</option>
+            </select>
+          </div>
+        </section>
+        <button type="submit">Converter</button>
+      </form>
+
+      <h2 id="result"></h2>
+    </main>
+    <footer>
+      <span
+        >&copy; Karol Sampaio, 2023. ImersãoDev 7 Aula 1 - Todos os direitos
+        reservados.
+      </span>
+    </footer>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
